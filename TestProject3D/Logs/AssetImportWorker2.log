@@ -1,0 +1,270 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityGames/TestProject3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60055
+Successfully changed project path to: D:/UnityGames/TestProject3D
+D:/UnityGames/TestProject3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4092] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3870131883 [EditorId] 3870131883 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-77I63CM6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4092] Host "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 3870131883 [EditorId] 3870131883 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-77I63CM6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 85.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path D:/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityGames/TestProject3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7870 MB
+    Driver:   31.0.14051.5006
+Initialize mono
+Mono path[0] = 'D:/Unity 2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001540 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (761ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004660 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\TestProject3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\TestProject3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3513.
+Memory consumption went from 107.5 MB to 107.4 MB.
+Total: 2.947000 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.449600 ms  DeleteObjects: 0.080200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 393469.410710 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.011778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.194770 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered
+  artifactKey: Guid(616d4a3e337496447ab06192f4ebb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered using Guid(616d4a3e337496447ab06192f4ebb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b90f084a84805955191a0554fc1219') in 0.011085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.783862 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/ADV
+  artifactKey: Guid(80da9584d40f79749b1d4f030f442aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/ADV using Guid(80da9584d40f79749b1d4f030f442aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a7ff0ab664c1f05c4d4ecb86d27ac1') in 0.008477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.890004 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material
+  artifactKey: Guid(e84fad9f118ad4349b86a9e725319073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material using Guid(e84fad9f118ad4349b86a9e725319073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02d8030ae62f5d9da8f03dc8404efbc') in 0.009927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062987 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material/EA04_LPNP-TinyForest_Colorsheet_v1.mat
+  artifactKey: Guid(b6a037f85a603854c9f52e5cfd1d6f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material/EA04_LPNP-TinyForest_Colorsheet_v1.mat using Guid(b6a037f85a603854c9f52e5cfd1d6f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9eec27abb051c5f157c6ac8a8571a9') in 0.353485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.947645 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes
+  artifactKey: Guid(63372e80089e8694493c9061794c0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes using Guid(63372e80089e8694493c9061794c0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a642cf53f08cce5bb59b4a5a264d1868') in 0.008549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073524 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Grass_Stick_01a.fbx
+  artifactKey: Guid(169b507305ea88a46892f3d3b80c004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Grass_Stick_01a.fbx using Guid(169b507305ea88a46892f3d3b80c004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124d520844aad50ab0d936c2bf40d66f') in 0.113538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Cuboids_01a.fbx
+  artifactKey: Guid(de57fe4cd55999a4db8eec68223ed5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Cuboids_01a.fbx using Guid(de57fe4cd55999a4db8eec68223ed5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2ac34bbf680e95f7be6f658c9c385c') in 0.030074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Snot_01a.fbx
+  artifactKey: Guid(6c30d7f7ef1430b4eaf0cbff5dd08a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Snot_01a.fbx using Guid(6c30d7f7ef1430b4eaf0cbff5dd08a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155046cfa60660fbb5eeabe7868d67db') in 0.028186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Stoolids_01b.fbx
+  artifactKey: Guid(27b41da1c62530644ba1480e74bc4274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Stoolids_01b.fbx using Guid(27b41da1c62530644ba1480e74bc4274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883337a3128b117d78d07077f041db5b') in 0.030881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Tire_01d.fbx
+  artifactKey: Guid(3558a1f932a73dc4fabfc06214f0941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Tire_01d.fbx using Guid(3558a1f932a73dc4fabfc06214f0941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4bf20d8a4171a4f6722360f30f1b8f') in 0.029952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Stoolids_01d.fbx
+  artifactKey: Guid(75f47cccdfd13c24b90e309cf72197bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Stoolids_01d.fbx using Guid(75f47cccdfd13c24b90e309cf72197bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9922e9db913ba46a35dac08f1483cec7') in 0.030776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.165789 seconds.
+  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Prefabs
+  artifactKey: Guid(a236a7eb39c2b9f488b27d45109173ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Prefabs using Guid(a236a7eb39c2b9f488b27d45109173ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411098ebf86f20ea713606ab195fbadb') in 0.011187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39022.293080 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Field.prefab
+  artifactKey: Guid(de7790c7607a35149a81731896a0405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Field.prefab using Guid(de7790c7607a35149a81731896a0405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efee72c51222b0f23086d14b065b665c') in 0.055768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Forest.prefab
+  artifactKey: Guid(006ebb435a2f4d940b4f350185a1547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Forest.prefab using Guid(006ebb435a2f4d940b4f350185a1547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d07bf08dbe1d8fc8d42033c7f74fb6d') in 0.037859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 1.prefab
+  artifactKey: Guid(87b1a4ec87dd8eb4fb00818956f8c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 1.prefab using Guid(87b1a4ec87dd8eb4fb00818956f8c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6ad120d82ce4de6f14d362889b1c55') in 0.086970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 2.prefab
+  artifactKey: Guid(a008918f2d4272845bdbbae611dabfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 2.prefab using Guid(a008918f2d4272845bdbbae611dabfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc01481d76ec0ecfa974c7934540c557') in 0.023381 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
